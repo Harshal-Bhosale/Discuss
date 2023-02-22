@@ -1,0 +1,98 @@
+body{
+  background: rgb(7,251,236);
+background: linear-gradient(130deg, rgba(7,251,236,1) 14%, rgba(231,2,168,1) 97%);
+height: 100vh;
+}
+
+h1{
+  font-family: 'Zen Dots', cursive;
+  font-size: 40px;
+  display: inline-block;
+  margin: 50px auto auto 650px ;
+  position: absolute;
+  
+}
+
+.nav{
+  position:relative;
+  display: block;
+  margin-top: 0%;
+}
+
+.logo{
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+ position: absolute;
+ margin-left: 500px;
+ 
+}
+
+.chatbox {
+  background: rgba(255, 255, 255, 0.11);
+  width: 60%;
+  height: 70%;
+  border-radius: 0.2em;
+  position: absolute;
+  box-shadow: 1px 10px 15px rgba(76, 74, 74, 0.255);
+ display: block;
+ margin: 150px auto 0px 300px;
+ overflow-y: auto;
+}
+
+.message{
+ display: block;
+ width: 24%;
+ padding: 8px;
+ border: 5px white;
+ border-radius: 10px;
+ margin: 15px;
+}
+
+.right{
+  background: rgba(255, 255, 255, 0.255);
+  float: right;
+  clear: both;
+}
+
+.left{
+  background: rgba(255, 255, 255, 0.304);
+  float: left;
+  clear: both;
+}
+
+.mid{
+  background: rgba(255, 255, 255, 0);
+  float: left;
+  clear: both;
+  padding: 2px;
+  width:50%;
+  font-family: "Lucida Handwriting",  "Cursive";
+  font-size: 9pt;
+  margin-left: 15%;
+}
+
+.form{
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 350px;
+}
+
+input{
+  width: 750px;
+  background: rgba(48, 135, 129, 0.356);
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.button{
+  background: rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  border-color: rgba(104, 95, 95, 0.908);
+  margin-left: 20px;
+  
+}
+
+.button:hover{
+  background: rgba(248, 237, 253, 0.767);
+}
