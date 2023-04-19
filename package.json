@@ -1,0 +1,20 @@
+{
+    "name": "Discuss",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+       "build": "npm install",
+       "test": "echo \"No test specified\" && exit 1",
+       "start": "node Node_Server/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Harshal-Bhosale/Discuss.git"
+    },
+    "author": "Harshal_Bhosale",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Harshal-Bhosale/Discuss/issues"
+    },
+    "homepage": "https://github.com/Harshal-Bhosale/Discuss#readme"
+}
