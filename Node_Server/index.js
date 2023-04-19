@@ -1,7 +1,7 @@
 //const { Socket } = require("socket.io");
 
 const io = require("socket.io")(process.env.PORT || 8000)
-console.log("Server listening on Port 8000");
+console.log("Server listening ");
 
 const users={};
 
